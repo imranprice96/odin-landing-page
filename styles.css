@@ -1,6 +1,14 @@
 body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b1becf;
+}
+
+.main-page{
+    max-width: 1500px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .sign-up{
@@ -203,4 +211,6 @@ body{
 .footer{
     background: #1f2937;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
