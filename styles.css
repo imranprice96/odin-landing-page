@@ -121,8 +121,32 @@ body{
 }
 
 /* Quote classes */
-.page-quote{
+
+.quote-section{
+    display: flex;
     background: #e5e7eb;
+    justify-content: center;
+    padding: 80px;
+}
+.page-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+
+.quote-content{
+    font-size: 36px;
+    font-style: italic;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-left:auto;
 }
 
 /* Banner classes */
