@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header classes */
@@ -8,6 +9,33 @@ body{
     color: white;
 
     display: flex;
+    flex-direction: column;
+}
+
+.main-header a, .main-header a:visited{
+  text-decoration: none;
+  color: white;  
+}
+
+.main-header li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.main-header ul{
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header-logo{
+    font-size:24px;
 }
 
 /* Content classes */
