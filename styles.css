@@ -52,8 +52,9 @@ body{
 
 .header-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 50px;
+    gap: 100px;
 }
 
 .header-content-text{
@@ -72,10 +73,17 @@ body{
     font-size: 18px;
 }
 
+/* image placeholder
 .header-content-image{
     background-color: #b1b3b8;
     flex: 1;
     max-width: 400px;
+}
+*/
+
+.header-content-image img{
+    max-height: 400px;
+    width: auto;
 }
 
 /* Content classes */
