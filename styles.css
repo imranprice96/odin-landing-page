@@ -3,6 +3,18 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.sign-up{
+    max-width: 100px;
+    padding: 5px;
+    background: #3882f6;
+    color: white;
+    border-radius: 5px;
+
+    border-width: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /* Header classes */
 .main-header{
     background: #1f2937;
@@ -36,6 +48,34 @@ body{
 
 .header-logo{
     font-size:24px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.header-content-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.header-content-text div{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.header-content-text p{
+    font-size: 18px;
+}
+
+.header-content-image{
+    background-color: #b1b3b8;
+    flex: 1;
+    max-width: 400px;
 }
 
 /* Content classes */
