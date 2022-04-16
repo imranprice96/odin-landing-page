@@ -4,7 +4,8 @@ body{
 }
 
 .sign-up{
-    max-width: 100px;
+    width: 100px;
+    height: 50px;
     padding: 5px;
     background: #3882f6;
     color: white;
@@ -13,6 +14,10 @@ body{
     border-width: 0;
     font-size: 18px;
     font-weight: bold;
+}
+
+.sign-up:hover{
+    border: 2px solid rgb(221, 170, 30);
 }
 
 /* Header classes */
@@ -150,9 +155,48 @@ body{
 }
 
 /* Banner classes */
+
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    
+}
+
+
 .banner{
     background: #3882f6;
     color: white;
+    width: 800px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title{
+    margin:0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-text{
+    margin: 0;
+    font-size: 14px;
+}
+
+.banner .sign-up{
+    border: 2px solid white;
+}
+
+.banner .sign-up:hover{
+    border: 2px solid rgb(221, 170, 30);
 }
 
 /* Footer classes */
